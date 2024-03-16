@@ -5,12 +5,11 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 .container {
     background-color: #c2c1f3;
-    padding: 0 148px;
+    padding: 0 150px;
 }
 
 .header {
@@ -22,8 +21,8 @@ body {
 }
 
 .logo {
-    width: 90px;
-    height: 45px;
+    width: 100px;
+    height: 40px;
 }
 
 .text a{
@@ -50,10 +49,10 @@ body {
 }
 
 .shop-now-btn {
-    background-color: rgb(196, 183, 0);
+    background-color: rgb(0, 0, 0);
     color: white;
     padding: 10px;
-    border-color: rgb(196, 183, 0);
+    border-color: rgb(0, 0, 0);
     border-radius: 12px;
     text-align: center;
     font-size: 18px;
@@ -72,7 +71,7 @@ ul {
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 8px;
+    gap: 20px;
 }
 
 a {
@@ -86,14 +85,14 @@ a {
 }
 
 .collection-types-container {
-    background-color: antiquewhite;
+    background-color: rgb(0, 0, 0);
     padding: 20px 20px 20px 20px;
 }
 
 .text-collection{
-    font-size: 46px;
+    font-size: 55px;
     font-weight: 900;
-    color: rgb(35, 65, 161);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -105,15 +104,17 @@ a {
 }
 
 .collection-image{
-    border: #e3b9ff 6px solid;
-    width: 200px;
+    border: #030303 1px solid;
+    width: 250px;
     height: 200px;
-    border-radius: 16px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px#0be7ca27;
 }
 
 .collection-type-info{
-color: black;
-font-size: 20px;
+color: rgb(255, 255, 255);
+font-size: 17px;
+text-align: center;
 }
 
 .quote{
@@ -121,19 +122,22 @@ font-size: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(229, 241, 121);
+    background-color: rgb(255, 255, 255);
 
 }
 
 .quote-text {
-    font-size: 36px;
-    color: #2a4c74;
+    font-size: 77px;
+    color: #000000;
+    font-weight: bold;
+    text-align: start;
+    
 }
 
 .quote-author-text {
     font-size: 18px;
     font-weight: bold;
-    color: #2a4c74;
+    color: #0435bd;
     text-align: right;
 }
 
@@ -147,9 +151,9 @@ font-size: 20px;
 .cta {
     display: flex;
     gap: 48px;
-    background-color: aliceblue;
+    background-color: #df7ec7;
     padding: 48px 96px;
-    border-radius: 10px;
+    border-radius: 10px 30px 10px 30px;
 }
 
 .cta-text{
@@ -163,11 +167,11 @@ font-size: 24px;
 }
 
 .cta-btn {
-    background-color: #ffffff;
-    color: rgb(121, 172, 218);
-    border-radius: 8px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 10px 30px 10px 30px;
     align-self: center;
-    border: #c2c1f3 2px solid;
+    border: #ff7bf8 2px solid;
     font-size: 25px;
     text-align: center;
     padding: 20px;
@@ -180,4 +184,4 @@ font-size: 24px;
     justify-content: center;
     align-items: center;
     color: #2a4c74;
-}
+}}
